@@ -1,0 +1,157 @@
+body{
+   background-color:  hsl(216, 12%, 8%); 
+   font-family: 'Overpass', sans-serif;
+   max-width: 500px;
+   margin: auto;
+   margin-top: 17rem;
+   
+
+}
+.ratingbox{
+    background-color: hsl(213, 19%, 18%);
+    width: 450px;
+    height: 450px;
+    border-radius: 10%;
+}
+.backgroundstar{
+    background-color: #373F4A;
+    height: 55px;
+    width: 55px; 
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+    
+}
+.star{
+    width: 25px;
+    height: 25px;
+    padding: 0.8rem; 
+}
+.writing {
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+}
+h1{
+    font-size: 2rem;
+    color:white; 
+}
+p {
+    opacity: 0.4;
+    color: white;
+    font-size: 1em;
+    padding:5px;
+    letter-spacing: 1px;
+}
+
+.flexbox input{
+    display:none;
+
+}
+
+li{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 78px;
+    text-align: center;
+    
+}
+label{
+    opacity: 0.7;
+}
+ #rating{
+    color:orange;
+    opacity: 0.5;
+    margin-left:20px; 
+ }
+
+
+.flexbox label {
+    background-color: #1c2329;
+    border: none; 
+    border-radius: 50%;
+    font-size: 1.2em;
+    font-weight:bold; 
+    text-align: center;
+    height:50px;
+    width:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.flexbox :checked + label  {
+    background-color: orange;
+  }
+
+.hide{
+    display: none; 
+}
+
+input:hover{
+    background-color: grey;
+}
+
+
+.submit {
+    width:350px; 
+    height:50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding:0;
+    border-radius: 50px;
+    margin-top: 5%;
+    background-color: orange;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+}
+.submit:hover{
+    background-color: white;
+    color:orange; 
+}
+/* thanke you for rating */ 
+.thankyou{
+    background-color: hsl(213, 19%, 18%);
+    width: 450px;
+    height: 450px;
+    border-radius: 10%;
+    
+}
+.img{
+    display: flex;
+    margin: auto;
+    padding-top: 3rem;
+}
+h2{
+    font-size: 2rem;
+    color:white; 
+    text-align: center;
+    padding-top: 1rem;
+
+}
+.selected{
+    display: flex;
+    background-color: #1c2329;
+    width: 200px;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 50px;
+}
+#appreciate{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    line-height: 25px;
+    text-align: center;
+    
+    
+}
